@@ -27,6 +27,7 @@ There are many ways to connect the ultrasonic sensor and LEDs to an Arduino boar
 ***Software:***
 The provided code works out of the box. It has a few parameters that can be customized e.g. the initial level of difficulty.
 Here is a UML State Diagram outlining the behavior of the machine:
+
 ![UltrasonicTimer](https://user-images.githubusercontent.com/42205689/148792329-b131071a-0048-4cc2-9d61-9d86d2fa24b5.png)
 
 **Limitations:**
