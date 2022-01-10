@@ -3,7 +3,6 @@ This is a kitchen timer project. It works via ultrasonic distance detection. Tha
 The sensor sends out ultrasonic sound waves. After a specified amount of time we stop and start receiving the returning waves. Using the time dilation we can calculate the approximate distance of the sensor to other objects. To avoid fluctuations in the measurement we use an average over multiple measurements
 The board also controls a set of status LEDs. They are used to indicate the setup process and the length of the timer.
 
-
 **Features**
 - detect objects (e.g. your hand)
 - calculate the distance between the object and itself
@@ -27,6 +26,8 @@ There are many ways to connect the ultrasonic sensor and LEDs to an Arduino boar
 
 ***Software:***
 The provided code works out of the box. It has a few parameters that can be customized e.g. the initial level of difficulty.
+Here is a UML State Diagram outlining the behavior of the machine:
+![UltrasonicTimer](https://user-images.githubusercontent.com/42205689/148792329-b131071a-0048-4cc2-9d61-9d86d2fa24b5.png)
 
 **Limitations:**
 
